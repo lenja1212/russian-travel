@@ -1,0 +1,36 @@
+.cover{
+  background-image: url(../../images/cover-background.png);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 48px 92px;
+  position: relative;
+}
+
+.cover::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: 62.5%;
+}
+
+@media screen and (max-width: 1024px){
+  .cover{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cover{
+    margin-bottom: 88px;
+  }
+}
+  
+@media screen and (max-width: 320px){
+  .cover{
+    margin-bottom: 64px;
+  }
+}
