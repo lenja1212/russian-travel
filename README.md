@@ -4,5 +4,5 @@
 
 ##### Используются html + css
 
-###### https://github.com/lenja1212/russian-travel.git
+###### https://lenja1212.github.io/russian-travel/
 
