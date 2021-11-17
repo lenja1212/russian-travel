@@ -5,7 +5,7 @@
   justify-content: end;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 660px){
   .place__website{
     grid-row-start: 2;
     margin-left: 16px;

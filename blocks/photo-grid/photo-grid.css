@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content,284px));
   gap: 16px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px){
@@ -20,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   .photo-grid{
     gap: 12px;
     grid-template-columns: repeat(auto-fit,288px);

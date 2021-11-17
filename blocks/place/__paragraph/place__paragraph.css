@@ -2,16 +2,16 @@
   grid-area: paragraph;
   margin: 0;
   color: #FFFFFF;
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
   text-align: left;
   display: flex;
   flex-direction: column;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
-.place__paragraph p:nth-of-type(2n){
+.place__paragraph:nth-child(2) {
   margin-top: 26px;
 }
 
