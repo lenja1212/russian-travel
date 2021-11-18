@@ -1,6 +1,6 @@
 .place__paragraph{
   grid-area: paragraph;
-  margin: 0;
+  margin: 0 0 26px;
   color: #FFFFFF;
   font-weight: 400;
   font-size: 18px;
@@ -11,8 +11,8 @@
   font-family: 'Inter', Arial, sans-serif;
 }
 
-.place__paragraph:nth-child(2) {
-  margin-top: 26px;
+.place__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px){
